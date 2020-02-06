@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<glare>off</glare>
+	    <fov>90.0</fov>
+	</camera>
+	<window>
+		<title>cameratest_1</title>
+		<dimension>1920, 600</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>0, 0, 0</position>
+		<intensity>100</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -100, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<texture_file>textures/triangles.xpm</texture_file>
+		<texture_mode>30, 0.0, 0.0</texture_mode>
+		<color>0x0000ff</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>cylinder</type>
+		<position>100, 0, 200</position>
+		<direction>0, 1, 0</direction>
+		<rotation>0, 90, 0</rotation>
+		<dimension>10</dimension>
+		<texture_file>textures/test.xpm</texture_file>
+		<texture_mode>5, 0.0, 0.0</texture_mode>
+		<color>0x026900</color>
+		<shine>100, 1</shine>
+	</object>
+	<object>
+		<type>cylinder</type>
+		<position>-100, 0, 200</position>
+		<direction>0, 1, 0</direction>
+		<rotation>0, 90, 0</rotation>
+		<dimension>10</dimension>
+		<texture_file>textures/test.xpm</texture_file>
+		<texture_mode>4, 0.0, 0.0</texture_mode>
+		<color>0x026900</color>
+		<shine>100, 1</shine>
+	</object>
+	<object>
+		<type>cone</type>
+		<position>0, 0, 250</position>
+		<direction>0, 1, 0</direction>
+		<rotation>0, 0, 0</rotation>
+		<texture_file>textures/test.xpm</texture_file>
+		<texture_mode>40, 0.0, 0.0</texture_mode>
+		<dimension>70</dimension>
+		<color>0x0000ff</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>40, 0, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0, 45, 0</rotation>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+		<texture_file>textures/moon.xpm</texture_file>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>0, 0, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0, 180, 0</rotation>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+		<texture_file>textures/earth.xpm</texture_file>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-40, 0, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0, 90, 0</rotation>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+		<texture_file>textures/ocean.xpm</texture_file>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-80, 0, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0, 180, 0</rotation>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+		<texture_file>textures/wireframe.xpm</texture_file>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>80, 0, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0, 180, 0</rotation>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+		<texture_file>textures/wireframe_blue.xpm</texture_file>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+</scene>

@@ -1,0 +1,26 @@
+#!/bin/sh
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &
+./RT scenes_xml/group_5.xml &

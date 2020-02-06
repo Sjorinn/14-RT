@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>40, 0, -100</position>        
+		<direction>-0.1, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>60.0</fov>
+	</camera>
+	<effects><antialiasing>off</antialiasing></effects>
+	<window>
+		<title>refraction_test</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>0, 0, 350</position>
+		<intensity>6000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<light>
+		<position>-20, 30, 0</position>
+		<intensity>600</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type> FRONT PLANE
+		<position>0, 0, 500</position>
+		<direction>0, 0, -1</direction>
+		<dimension>20</dimension>
+		<color>0xcccccc</color>
+		<perturbation>2, 0</perturbation>
+	</object>
+	<object>
+		<type>plane</type> BACK PLANE
+		<position>0, 0, -500</position>
+		<direction>0, 0, 1</direction>
+		<dimension>20</dimension>
+		<color>0xcccccc</color>
+	</object>
+	<object>
+		<type>plane</type> LEFT PLANE
+		<position>-100, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>20</dimension>
+		<color>0x00ffff</color>
+	</object>
+	<object>
+		<type>plane</type> RIGHT PLANE
+		<position>100, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>20</dimension>
+		<color>0x00ffff</color>
+	</object>
+	<object>
+		<type>plane</type> TOP PLANE
+		<position>0, 80, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>20</dimension>
+		<color>0x00ff00</color>
+	</object>
+	<object>
+		<type>plane</type> BOTTOM PLANE
+		<position>0, -80, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>20</dimension>
+		<color>0xff0000</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>0, 0, 50</position>
+		<direction>0, 1, 0</direction>
+		<dimension>20</dimension>
+		<refraction>1.1</refraction>
+		<transparence>0.85</transparence>
+		<shine>30, 1</shine>
+		<color>0x000000</color>
+	</object>
+</scene>

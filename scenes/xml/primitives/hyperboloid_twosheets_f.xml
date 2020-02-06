@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>70.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>4x</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>hyperboloid_two_sheets_frontal</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>0, 0, 1500</position>
+		<intensity>50000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<light>
+		<direction>0, 0, 1</direction>
+		<intensity>130000</intensity>
+		<color>0xffffff</color>
+		<type>directional</type>
+	</light>
+	<object>
+		<type>hyperboloid2</type>
+		<position>0, 0, 1500</position>
+		<direction>0, 1, 0</direction>
+		<dimension>260</dimension>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 500, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>260</dimension>
+		<color>0x333333</color>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, -500, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>260</dimension>
+		<color>0x333333</color>
+	</object>
+</scene>

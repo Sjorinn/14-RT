@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 30, -120</position>        
+		<direction>0, -0.2, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>60.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>4x</antialiasing>
+	</effects>
+	<window>
+		<title>cube</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>20, 0, -100</position>
+		<intensity>9000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>cube</type>
+		<position>0, -20, 50</position>
+		<direction>1, 0, 0</direction>
+		<rotation>0, 30, 0</rotation>
+		<dimension>15</dimension>
+		<color>0x00ff00</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>cube</type>
+		<position>0, 10, 50</position>
+		<direction>1, 0, 0</direction>
+		<rotation>0, -20, 0</rotation>
+		<dimension>15</dimension>
+		<color>0xff0000</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, -35, 50</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0x888888</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

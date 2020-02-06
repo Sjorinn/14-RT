@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>-5, 50, 0</position>
+		<direction>0, 0, 1</direction>
+		<rotation>10, 0, 0</rotation>
+		<fov>30.0</fov>
+	</camera>
+	<window>
+		<title>Torus Cruxifiction</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.2</ambient>
+	</window>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<light>
+		<position>45, 50, 230</position>
+		<intensity>5000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 400</position>
+		<direction>0, 0, -1</direction>
+		<dimension>1</dimension>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, -10, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>1</dimension>
+		<color>0xffffff</color>
+	</object>
+
+	<object>
+		<type>cube</type>
+		<position>0, 0, 230</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0xf0ffff</color>
+	</object>
+	<object>
+		<type>torus</type>
+		<position>0, 10, 230</position>
+		<rotation>0,90,0</rotation>
+		<direction>0, 0, 1</direction>
+		<dimension>5</dimension>
+		<negatif>1</negatif>
+		<color>0xff00ff</color>
+	</object>
+	<object>
+		<type>torus</type>
+		<position>0, 10, 230</position>
+		<rotation>0,0,0</rotation>
+		<direction>0, 0, 1</direction>
+		<dimension>5</dimension>
+		<negatif>1</negatif>
+		<color>0xff00ff</color>
+	</object>
+	<object>
+		<type>cube</type>
+		<position>0, 20, 230</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0xf0ffff</color>
+	</object>
+</scene>

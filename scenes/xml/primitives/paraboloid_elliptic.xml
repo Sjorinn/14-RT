@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -5</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>70.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>4x</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>paraboloid_elliptic</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<position>0, 100, -700</position>
+		<intensity>800000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>paraboloid1</type>
+		<position>0, -200, 1000</position>
+		<direction>0, 1, 0</direction>
+		<dimension>300</dimension>
+		<color>0xff0000</color>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 200, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>200</dimension>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 5000</position>
+		<direction>0, 0, -1</direction>
+		<dimension>500</dimension>
+		<color>0xbbbbbb</color>
+	</object>
+</scene>

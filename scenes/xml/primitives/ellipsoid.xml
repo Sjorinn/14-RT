@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -5</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>4x</antialiasing>
+	</effects>
+	<window>
+		<title>ellipsoid</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<position>0, 0, 0</position>
+		<intensity>6000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>ellipsoid</type>
+		<position>-30, 0, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>15</dimension>
+		<color>0xccffcc</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>ellipsoid</type>
+		<position>30, 0, 100</position>
+		<direction>1, 0, 0</direction>
+		<dimension>15</dimension>
+		<color>0xccffcc</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

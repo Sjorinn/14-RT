@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<glare>off</glare>
+	    <fov>90.0</fov>
+	</camera>
+	<window>
+		<title>pert_plane</title>
+		<dimension>800, 600</dimension>
+		<ambient>0.0</ambient>
+	</window>
+	<light>
+		<position>-10, 0, -5</position>
+		<intensity>200</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 1</position>
+		<direction>0, 0, -1</direction>
+		<dimension>1</dimension>
+		<rotation>-70, 0, 0</rotation>
+		<color>0xffffff</color>
+		<nrm_sin_pow>20, 20, 20</nrm_sin_pow>
+		<nrm_sin_frq>100, 100, 100</nrm_sin_frq>
+	</object>
+</scene>

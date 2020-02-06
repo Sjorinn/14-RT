@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<fov>60.0</fov>
+	</camera>
+	<window>
+		<title>converted_obj</title>
+		<dimension>500, 500</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>0, 0, -100</position>
+		<intensity>50000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<mesh>
+		<type>triangle_mesh</type>
+		<color>0xffffff</color>
+		<shine>0, 0</shine>
+		<rotation>0, 0, 0</rotation>
+		<translation>0, 0, 0</translation>
+		<part>
+			<vertex1>-15, -1.026418, 15</vertex1>
+			<vertex2>15, -1.026418, 15</vertex2>
+			<vertex3>15, -1.026418, -15</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-15, -1.026418, 15</vertex1>
+			<vertex2>15, -1.026418, -15</vertex2>
+			<vertex3>-15, -1.026418, -15</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-0.969458, 4.327174, 0</vertex1>
+			<vertex2>0, 6.266090, 0</vertex2>
+			<vertex3>-0.685510, 4.327174, -0.685510</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 4.327174, -0.969458</vertex1>
+			<vertex2>0, 6.266090, 0</vertex2>
+			<vertex3>0.685510, 4.327174, -0.685510</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-0.685510, 4.327174, 0.685510</vertex1>
+			<vertex2>0, 6.266090, 0</vertex2>
+			<vertex3>-0.969458, 4.327174, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 4.327174, 0.969458</vertex1>
+			<vertex2>0, 6.266090, 0</vertex2>
+			<vertex3>-0.685510, 4.327174, 0.685510</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.685510, 4.327174, 0.685510</vertex1>
+			<vertex2>0, 6.266090, 0</vertex2>
+			<vertex3>0, 4.327174, 0.969458</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.969458, 4.327174, 0</vertex1>
+			<vertex2>0, 6.266090, 0</vertex2>
+			<vertex3>0.685510, 4.327174, 0.685510</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-0.685510, 4.327174, -0.685510</vertex1>
+			<vertex2>0, 6.266090, 0</vertex2>
+			<vertex3>0, 4.327174, -0.969458</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.685510, 4.327174, -0.685510</vertex1>
+			<vertex2>0, 6.266090, 0</vertex2>
+			<vertex3>0.969458, 4.327174, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 4.327174, -0.969458</vertex1>
+			<vertex2>0.685510, 4.327174, -0.685510</vertex2>
+			<vertex3>0.969458, 4.327174, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 4.327174, -0.969458</vertex1>
+			<vertex2>0.969458, 4.327174, 0</vertex2>
+			<vertex3>0.685510, 4.327174, 0.685510</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 4.327174, -0.969458</vertex1>
+			<vertex2>0.685510, 4.327174, 0.685510</vertex2>
+			<vertex3>0, 4.327174, 0.969458</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 4.327174, -0.969458</vertex1>
+			<vertex2>0, 4.327174, 0.969458</vertex2>
+			<vertex3>-0.685510, 4.327174, 0.685510</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 4.327174, -0.969458</vertex1>
+			<vertex2>-0.685510, 4.327174, 0.685510</vertex2>
+			<vertex3>-0.969458, 4.327174, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 4.327174, -0.969458</vertex1>
+			<vertex2>-0.969458, 4.327174, 0</vertex2>
+			<vertex3>-0.685510, 4.327174, -0.685510</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-1.525971, 2.547373, 0</vertex1>
+			<vertex2>0, 5.599314, 0</vertex2>
+			<vertex3>-1.079024, 2.547373, -1.079024</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 2.547373, -1.525971</vertex1>
+			<vertex2>0, 5.599314, 0</vertex2>
+			<vertex3>1.079024, 2.547373, -1.079024</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-1.079024, 2.547373, 1.079024</vertex1>
+			<vertex2>0, 5.599314, 0</vertex2>
+			<vertex3>-1.525971, 2.547373, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 2.547373, 1.525971</vertex1>
+			<vertex2>0, 5.599314, 0</vertex2>
+			<vertex3>-1.079024, 2.547373, 1.079024</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>1.079024, 2.547373, 1.079024</vertex1>
+			<vertex2>0, 5.599314, 0</vertex2>
+			<vertex3>0, 2.547373, 1.525971</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>1.525971, 2.547373, 0</vertex1>
+			<vertex2>0, 5.599314, 0</vertex2>
+			<vertex3>1.079024, 2.547373, 1.079024</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-1.079024, 2.547373, -1.079024</vertex1>
+			<vertex2>0, 5.599314, 0</vertex2>
+			<vertex3>0, 2.547373, -1.525971</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>1.079024, 2.547373, -1.079024</vertex1>
+			<vertex2>0, 5.599314, 0</vertex2>
+			<vertex3>1.525971, 2.547373, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 2.547373, -1.525971</vertex1>
+			<vertex2>1.079024, 2.547373, -1.079024</vertex2>
+			<vertex3>1.525971, 2.547373, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 2.547373, -1.525971</vertex1>
+			<vertex2>1.525971, 2.547373, 0</vertex2>
+			<vertex3>1.079024, 2.547373, 1.079024</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 2.547373, -1.525971</vertex1>
+			<vertex2>1.079024, 2.547373, 1.079024</vertex2>
+			<vertex3>0, 2.547373, 1.525971</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 2.547373, -1.525971</vertex1>
+			<vertex2>0, 2.547373, 1.525971</vertex2>
+			<vertex3>-1.079024, 2.547373, 1.079024</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 2.547373, -1.525971</vertex1>
+			<vertex2>-1.079024, 2.547373, 1.079024</vertex2>
+			<vertex3>-1.525971, 2.547373, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 2.547373, -1.525971</vertex1>
+			<vertex2>-1.525971, 2.547373, 0</vertex2>
+			<vertex3>-1.079024, 2.547373, -1.079024</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-2.086378, 0.656203, 0</vertex1>
+			<vertex2>0, 4.828959, 0</vertex2>
+			<vertex3>-1.475292, 0.656203, -1.475292</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 0.656203, -2.086378</vertex1>
+			<vertex2>0, 4.828959, 0</vertex2>
+			<vertex3>1.475292, 0.656203, -1.475292</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-1.475292, 0.656203, 1.475292</vertex1>
+			<vertex2>0, 4.828959, 0</vertex2>
+			<vertex3>-2.086378, 0.656203, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 0.656203, 2.086378</vertex1>
+			<vertex2>0, 4.828959, 0</vertex2>
+			<vertex3>-1.475292, 0.656203, 1.475292</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>1.475292, 0.656203, 1.475292</vertex1>
+			<vertex2>0, 4.828959, 0</vertex2>
+			<vertex3>0, 0.656203, 2.086378</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>2.086378, 0.656203, 0</vertex1>
+			<vertex2>0, 4.828959, 0</vertex2>
+			<vertex3>1.475292, 0.656203, 1.475292</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-1.475292, 0.656203, -1.475292</vertex1>
+			<vertex2>0, 4.828959, 0</vertex2>
+			<vertex3>0, 0.656203, -2.086378</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>1.475292, 0.656203, -1.475292</vertex1>
+			<vertex2>0, 4.828959, 0</vertex2>
+			<vertex3>2.086378, 0.656203, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 0.656203, -2.086378</vertex1>
+			<vertex2>1.475292, 0.656203, -1.475292</vertex2>
+			<vertex3>2.086378, 0.656203, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 0.656203, -2.086378</vertex1>
+			<vertex2>2.086378, 0.656203, 0</vertex2>
+			<vertex3>1.475292, 0.656203, 1.475292</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 0.656203, -2.086378</vertex1>
+			<vertex2>1.475292, 0.656203, 1.475292</vertex2>
+			<vertex3>0, 0.656203, 2.086378</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 0.656203, -2.086378</vertex1>
+			<vertex2>0, 0.656203, 2.086378</vertex2>
+			<vertex3>-1.475292, 0.656203, 1.475292</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 0.656203, -2.086378</vertex1>
+			<vertex2>-1.475292, 0.656203, 1.475292</vertex2>
+			<vertex3>-2.086378, 0.656203, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, 0.656203, -2.086378</vertex1>
+			<vertex2>-2.086378, 0.656203, 0</vertex2>
+			<vertex3>-1.475292, 0.656203, -1.475292</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, -1, -0.630390</vertex1>
+			<vertex2>0, 1, -0.630390</vertex2>
+			<vertex3>0.445753, 1, -0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, -1, -0.630390</vertex1>
+			<vertex2>0.445753, 1, -0.445753</vertex2>
+			<vertex3>0.445753, -1, -0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.445753, -1, -0.445753</vertex1>
+			<vertex2>0.445753, 1, -0.445753</vertex2>
+			<vertex3>0.630390, 1, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.445753, -1, -0.445753</vertex1>
+			<vertex2>0.630390, 1, 0</vertex2>
+			<vertex3>0.630390, -1, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.630390, -1, 0</vertex1>
+			<vertex2>0.630390, 1, 0</vertex2>
+			<vertex3>0.445753, 1, 0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.630390, -1, 0</vertex1>
+			<vertex2>0.445753, 1, 0.445753</vertex2>
+			<vertex3>0.445753, -1, 0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.445753, -1, 0.445753</vertex1>
+			<vertex2>0.445753, 1, 0.445753</vertex2>
+			<vertex3>0, 1, 0.630390</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.445753, -1, 0.445753</vertex1>
+			<vertex2>0, 1, 0.630390</vertex2>
+			<vertex3>0, -1, 0.630390</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, -1, 0.630390</vertex1>
+			<vertex2>0, 1, 0.630390</vertex2>
+			<vertex3>-0.445753, 1, 0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, -1, 0.630390</vertex1>
+			<vertex2>-0.445753, 1, 0.445753</vertex2>
+			<vertex3>-0.445753, -1, 0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-0.445753, -1, 0.445753</vertex1>
+			<vertex2>-0.445753, 1, 0.445753</vertex2>
+			<vertex3>-0.630390, 1, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-0.445753, -1, 0.445753</vertex1>
+			<vertex2>-0.630390, 1, 0</vertex2>
+			<vertex3>-0.630390, -1, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.445753, 1, -0.445753</vertex1>
+			<vertex2>0, 1, -0.630390</vertex2>
+			<vertex3>-0.445753, 1, -0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.445753, 1, -0.445753</vertex1>
+			<vertex2>-0.445753, 1, -0.445753</vertex2>
+			<vertex3>-0.630390, 1, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.445753, 1, -0.445753</vertex1>
+			<vertex2>-0.630390, 1, 0</vertex2>
+			<vertex3>-0.445753, 1, 0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.445753, 1, -0.445753</vertex1>
+			<vertex2>-0.445753, 1, 0.445753</vertex2>
+			<vertex3>0, 1, 0.630390</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.445753, 1, -0.445753</vertex1>
+			<vertex2>0, 1, 0.630390</vertex2>
+			<vertex3>0.445753, 1, 0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0.445753, 1, -0.445753</vertex1>
+			<vertex2>0.445753, 1, 0.445753</vertex2>
+			<vertex3>0.630390, 1, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-0.445753, -1, -0.445753</vertex1>
+			<vertex2>-0.445753, 1, -0.445753</vertex2>
+			<vertex3>0, 1, -0.630390</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-0.445753, -1, -0.445753</vertex1>
+			<vertex2>0, 1, -0.630390</vertex2>
+			<vertex3>0, -1, -0.630390</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-0.630390, -1, 0</vertex1>
+			<vertex2>-0.630390, 1, 0</vertex2>
+			<vertex3>-0.445753, 1, -0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>-0.630390, -1, 0</vertex1>
+			<vertex2>-0.445753, 1, -0.445753</vertex2>
+			<vertex3>-0.445753, -1, -0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, -1, -0.630390</vertex1>
+			<vertex2>0.445753, -1, -0.445753</vertex2>
+			<vertex3>0.630390, -1, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, -1, -0.630390</vertex1>
+			<vertex2>0.630390, -1, 0</vertex2>
+			<vertex3>0.445753, -1, 0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, -1, -0.630390</vertex1>
+			<vertex2>0.445753, -1, 0.445753</vertex2>
+			<vertex3>0, -1, 0.630390</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, -1, -0.630390</vertex1>
+			<vertex2>0, -1, 0.630390</vertex2>
+			<vertex3>-0.445753, -1, 0.445753</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, -1, -0.630390</vertex1>
+			<vertex2>-0.445753, -1, 0.445753</vertex2>
+			<vertex3>-0.630390, -1, 0</vertex3>
+			<normal></normal>
+		</part>
+		<part>
+			<vertex1>0, -1, -0.630390</vertex1>
+			<vertex2>-0.630390, -1, 0</vertex2>
+			<vertex3>-0.445753, -1, -0.445753</vertex3>
+			<normal></normal>
+		</part>
+	</mesh>
+</scene>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<fov>60.0</fov>
+	</camera>
+	<window>
+		<title>converted_obj</title>
+		<dimension>500, 500</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>0, 0, -100</position>
+		<intensity>50000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<mesh>
+		<type>triangle_mesh</type>
+		<color>0xffffff</color>
+		<shine>0, 0</shine>
+		<rotation>0, 0, 0</rotation>
+		<translation>0, 0, 0</translation>
+		<part>
+			<vertex1>7.889562, 1.150329, -2.173651</vertex1>
+			<vertex2>0.033757, 0, -0.314657</vertex2>
+			<vertex3>2.212808, 1.150329, -2.230414</vertex3>
+			<normal>0.005105, -0.859861, -0.510503</normal>
+		</part>
+		<part>
+			<vertex1>2.212808, 1.150329, -2.230414</vertex1>
+			<vertex2>0.033757, 0, -0.314657</vertex2>
+			<vertex3>0.068023, 1.150328, -7.923502</vertex3>
+			<normal>0.365127, -0.920739, -0.137556</normal>
+		</part>
+		<part>
+			<vertex1>0.068023, 1.150328, -7.923502</vertex1>
+			<vertex2>0.033757, 0, -0.314657</vertex2>
+			<vertex3>-2.151306, 1.150329, -2.254857</vertex3>
+			<normal>-0.360232, -0.922140, -0.141034</normal>
+		</part>
+		<part>
+			<vertex1>-2.151306, 1.150329, -2.254857</vertex1>
+			<vertex2>0.033757, 0, -0.314657</vertex2>
+			<vertex3>-7.817406, 1.150328, -2.261558</vertex3>
+			<normal>0.000604, -0.859880, -0.510496</normal>
+		</part>
+		<part>
+			<vertex1>-7.817406, 1.150328, -2.261558</vertex1>
+			<vertex2>0.033757, 0, -0.314657</vertex2>
+			<vertex3>-3.523133, 1.150328, 1.888122</vertex3>
+			<normal>-0.189615, -0.962051, 0.196222</normal>
+		</part>
+		<part>
+			<vertex1>-3.523133, 1.150328, 1.888122</vertex1>
+			<vertex2>0.033757, 0, -0.314657</vertex2>
+			<vertex3>-4.869315, 1.150328, 6.987552</vertex3>
+			<normal>-0.358980, -0.928522, -0.094766</normal>
+		</part>
+		<part>
+			<vertex1>-4.869315, 1.150328, 6.987552</vertex1>
+			<vertex2>0.033757, 0, -0.314657</vertex2>
+			<vertex3>-0.006854, 1.150329, 4.473047</vertex3>
+			<normal>0.120430, -0.965019, 0.232884</normal>
+		</part>
+		<part>
+			<vertex1>-0.006854, 1.150329, 4.473047</vertex1>
+			<vertex2>0.033757, 0, -0.314657</vertex2>
+			<vertex3>4.838127, 1.150328, 7.041885</vertex3>
+			<normal>-0.122414, -0.965251, 0.230880</normal>
+		</part>
+		<part>
+			<vertex1>4.838127, 1.150328, 7.041885</vertex1>
+			<vertex2>0.033757, 0, -0.314657</vertex2>
+			<vertex3>3.538153, 1.150329, 1.927652</vertex3>
+			<normal>0.363409, -0.927039, -0.092374</normal>
+		</part>
+		<part>
+			<vertex1>3.538153, 1.150329, 1.927652</vertex1>
+			<vertex2>0.033757, 0, -0.314657</vertex2>
+			<vertex3>7.889562, 1.150329, -2.173651</vertex3>
+			<normal>0.188029, -0.961689, 0.199495</normal>
+		</part>
+		<part>
+			<vertex1>7.889562, 1.150329, -2.173651</vertex1>
+			<vertex2>0.035668, 2.269531, -0.312831</vertex2>
+			<vertex3>3.538153, 1.150329, 1.927652</vertex3>
+			<normal>0.183421, 0.963579, 0.194606</normal>
+		</part>
+		<part>
+			<vertex1>3.538153, 1.150329, 1.927652</vertex1>
+			<vertex2>0.035668, 2.269531, -0.312831</vertex2>
+			<vertex3>4.838127, 1.150328, 7.041885</vertex3>
+			<normal>0.355062, 0.930476, -0.090252</normal>
+		</part>
+		<part>
+			<vertex1>4.838127, 1.150328, 7.041885</vertex1>
+			<vertex2>0.035668, 2.269531, -0.312831</vertex2>
+			<vertex3>-0.006854, 1.150329, 4.473047</vertex3>
+			<normal>-0.119338, 0.967005, 0.225079</normal>
+		</part>
+		<part>
+			<vertex1>-0.006854, 1.150329, 4.473047</vertex1>
+			<vertex2>0.035668, 2.269531, -0.312831</vertex2>
+			<vertex3>-4.869315, 1.150328, 6.987552</vertex3>
+			<normal>0.117452, 0.966757, 0.227125</normal>
+		</part>
+		<part>
+			<vertex1>-4.869315, 1.150328, 6.987552</vertex1>
+			<vertex2>0.035668, 2.269531, -0.312831</vertex2>
+			<vertex3>-3.523133, 1.150328, 1.888122</vertex3>
+			<normal>-0.350315, 0.932055, -0.092478</normal>
+		</part>
+		<part>
+			<vertex1>-3.523133, 1.150328, 1.888122</vertex1>
+			<vertex2>0.035668, 2.269531, -0.312831</vertex2>
+			<vertex3>-7.817406, 1.150328, -2.261558</vertex3>
+			<normal>-0.184852, 0.963969, 0.191293</normal>
+		</part>
+		<part>
+			<vertex1>-7.817406, 1.150328, -2.261558</vertex1>
+			<vertex2>0.035668, 2.269531, -0.312831</vertex2>
+			<vertex3>-2.151306, 1.150329, -2.254857</vertex3>
+			<normal>0.000591, 0.866128, -0.499821</normal>
+		</part>
+		<part>
+			<vertex1>-2.151306, 1.150329, -2.254857</vertex1>
+			<vertex2>0.035668, 2.269531, -0.312831</vertex2>
+			<vertex3>0.068023, 1.150328, -7.923502</vertex3>
+			<normal>-0.351624, 0.925964, -0.137664</normal>
+		</part>
+		<part>
+			<vertex1>0.068023, 1.150328, -7.923502</vertex1>
+			<vertex2>0.035668, 2.269531, -0.312831</vertex2>
+			<vertex3>2.212808, 1.150329, -2.230414</vertex3>
+			<normal>0.356828, 0.924447, -0.134430</normal>
+		</part>
+		<part>
+			<vertex1>2.212808, 1.150329, -2.230414</vertex1>
+			<vertex2>0.035668, 2.269531, -0.312831</vertex2>
+			<vertex3>7.889562, 1.150329, -2.173651</vertex3>
+			<normal>0.004998, 0.866108, -0.499832</normal>
+		</part>
+	</mesh>
+</scene>

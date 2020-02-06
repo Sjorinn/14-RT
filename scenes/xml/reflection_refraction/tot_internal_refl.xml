@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -5</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects><antialiasing>off</antialiasing></effects>
+	<window>
+		<title>air_inside_glass(tir)</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.6</ambient>
+	</window>
+	<light>
+		<position>-30, 60, 50</position>
+		<intensity>4000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 200</position>
+		<direction>0, 0, -1</direction>
+		<dimension>50</dimension>
+		<color>0xffffff</color>
+		<perturbation>6, 0</perturbation>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, -20, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0xff0000</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>0, 20, 120</position>
+		<direction>0, 1, 0</direction>
+		<dimension>40</dimension>
+		<transparence>0.95</transparence>
+		<refraction>1.5</refraction>
+		<color>0x888888</color>
+		<shine>50, 0.5</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>0, 0, 120</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<transparence>0.95</transparence>
+		<refraction>1.05</refraction>
+		<color>0x888888</color>
+		<shine>50, 1</shine>
+	</object>
+</scene>

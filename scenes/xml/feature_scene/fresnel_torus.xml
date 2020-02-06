@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -5</position>
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects><antialiasing>2x</antialiasing></effects>
+	<window>
+		<title>torus_glass</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.6</ambient>
+	</window>
+	<light>
+		<position>-30, 60, 50</position>
+		<intensity>4000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 200</position>
+		<direction>0, 0, -1</direction>
+		<dimension>50</dimension>
+		<color>0xffffff</color>
+		<shine>0, 0</shine>
+		<texture_file>textures/ocean.xpm</texture_file>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, -20, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0x0000ff</color>
+		<shine>0, 0</shine>
+		<texture_file>textures/ocean.xpm</texture_file>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>torus</type>
+		<position>0, 15, 120</position>
+		<direction>0, -1, 1</direction>
+		<dimension>15</dimension>
+		<reflection>0.05</reflection>
+		<transparence>0.85</transparence>
+		<refraction>1.8</refraction>
+		<color>0x888888</color>
+		<shine>50, 0.5</shine>
+	</object>
+</scene>

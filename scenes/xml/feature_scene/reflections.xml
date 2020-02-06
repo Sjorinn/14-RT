@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -5</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects><antialiasing>off</antialiasing></effects>
+	<window>
+		<title>reflection_1</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<position>0, 60, 50</position>
+		<intensity>2000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>cylinder</type>
+		<position>40, -10, 70</position>
+		<direction>0, 1, 0</direction>
+		<reflection>0.85</reflection>
+		<dimension>8</dimension>
+		<color>0x888888</color>
+		<shine>50, 1</shine>
+	</object>
+	<object>
+		<type>cylinder</type>
+		<position>-40, -10, 70</position>
+		<direction>0, 1, 0</direction>
+		<reflection>0.85</reflection>
+		<dimension>8</dimension>
+		<color>0x888888</color>
+		<shine>50, 1</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-20, -10, 100</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0x0000ff</color>
+		<shine>50, 1</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>20, -10, 70</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0x00ff00</color>
+		<shine>50, 1</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 200</position>
+		<direction>0, 0, -1</direction>
+		<dimension>50</dimension>
+		<color>0xffffff</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 0, -200</position>
+		<direction>0, 0, -1</direction>
+		<dimension>50</dimension>
+		<color>0xaaaaaa</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, -20, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0x32130</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

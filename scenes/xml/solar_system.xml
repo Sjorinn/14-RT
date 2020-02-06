@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 6000, -20000</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>20, 0, 0</rotation>
+		<glare>on</glare>
+		<fov>50.0</fov>
+	</camera>
+	<window>
+		<title>Saturn</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<object>
+		<type>plane</type>
+		<position>0, 2000, 1100</position>
+		<rotation>-20, 0, 0</rotation>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<texture_file>textures/solar_system.xpm</texture_file>
+		<texture_mode>200, 950, -275</texture_mode>
+		<color>0xffffff</color>
+	</object>
+	<light>
+		<position>-6000, 500, 50100</position>
+		<intensity>10000000000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+</scene>

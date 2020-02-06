@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -30</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<window>
+		<title>torus</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.6</ambient>
+	</window>
+	<light>
+		<position>0, 0, -120</position>
+		<intensity>11000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>torus</type>
+		<position>0, 0, 0</position>
+		<direction>0, -0.5, 1</direction>
+		<dimension>4</dimension>
+		<color>0x0000ff</color>
+	</object>
+	<object>
+		<type>torus</type>
+		<position>10, 3, -3</position>
+		<direction>-1, -1, -2</direction>
+		<dimension>2</dimension>
+		<color>0xff0000</color>
+	</object>
+	<object>
+		<type>torus</type>
+		<position>-15, 0, 0</position>
+		<direction>0, -1, 1</direction>
+		<dimension>2</dimension>
+		<negatif>1</negatif>
+		<color>0xff00ff</color>
+	</object>
+	<object>
+		<type>cylinder</type>
+		<position>-15, 0, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>2</dimension>
+		<color>0xffff00</color>
+	</object>
+</scene>

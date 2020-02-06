@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<glare>off</glare>
+	    <fov>90.0</fov>
+	</camera>
+	<window>
+		<title>pert_cylinder</title>
+		<dimension>800, 600</dimension>
+		<ambient>0.0</ambient>
+	</window>
+	<light>
+		<position>10, 10, -15</position>
+		<intensity>700</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>cylinder</type>
+		<position>0, 0, 20</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0, 45, 0</rotation>
+		<color>0xffffff</color>
+		<shine>100, 1</shine>
+		<nrm_sin_pow>100, 100, 100</nrm_sin_pow>
+		<nrm_sin_frq>7, 7, 7</nrm_sin_frq>
+	</object>
+</scene>

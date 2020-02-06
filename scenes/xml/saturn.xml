@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 6000, -20000</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>20, 0, 0</rotation>
+		<glare>on</glare>
+		<fov>50.0</fov>
+	</camera>
+	<window>
+		<title>Saturn</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 100000000000</position>
+		<rotation>0, 0, 0</rotation>
+		<direction>0, 1, 1</direction>
+		<dimension>100</dimension>
+		<texture_file>textures/8k_stars_milky_way.xpm</texture_file>
+		<texture_mode>1, 0, 0</texture_mode>
+		<color>0xffffff</color>
+	</object>
+	<group>
+		<position>6000, 100, -2000</position>
+		<rotation>0, 45, 0</rotation>
+		<translation>0, 0, 0</translation>
+		<components>
+			<object>
+				<type>torus</type>
+				<position>0, 0, 300</position>
+				<rotation>0, 0, 25</rotation>
+				<direction>0, 1, 0</direction>
+				<dimension>900</dimension>
+				<negatif>1</negatif>
+				<color>0x0000ff</color>
+				<shine>200, 0.2</shine>
+			</object>
+			<object>
+				<type>sphere</type>
+				<position>0, 0, 300</position>
+				<rotation>0, 0, 25</rotation>
+				<direction>0, 1, 0</direction>
+				<dimension>900</dimension>
+				<texture_file>textures/8k_saturn.xpm</texture_file>
+				<texture_mode>1, 0, 0</texture_mode>
+				<color>0x0000ff</color>
+			</object>
+			<object>
+				<type>disk</type>
+				<position>0, 0, 300</position>
+				<rotation>0, 0, 25</rotation>
+				<direction>0, 1, 0</direction>
+				<dimension>3000</dimension>
+				<transparence>0</transparence>
+				<refraction>1.5</refraction>
+				<reflection>0.592</reflection>
+				<perturbation>6, 1</perturbation>
+				<texture_file>textures/saturn_rings.xpm</texture_file>
+				<texture_mode>1, 0, 0</texture_mode>
+				<color>0xab604a</color>
+			</object>
+		</components>
+	</group>
+	<light>
+		<position>-6000, 500, 50100</position>
+		<intensity>10000000000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>sphere</type>
+		<position>-90000, -60000, 200000</position>
+		<rotation>0, 0, 0</rotation>
+		<direction>0, 1, 0</direction>
+		<dimension>10900</dimension>
+		<texture_file>textures/2k_sun.xpm</texture_file>
+		<texture_mode>1, 0, 0</texture_mode>
+		<perturbation>2, 1</perturbation>
+		<shine>200, 0.2</shine>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-5000, -3500, 10000</position>
+		<rotation>0, 0, 0</rotation>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<texture_file>textures/earth.xpm</texture_file>
+		<texture_mode>1, 0, 0</texture_mode>
+		<color>0xffffff</color>
+	</object>
+</scene>

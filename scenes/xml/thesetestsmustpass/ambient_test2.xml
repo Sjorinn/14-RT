@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 200</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>100.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>ambient_test_noambient</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0</ambient>
+	</window>
+	<light>
+		<position>-100, 0, 400</position>
+		<intensity>8000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>cone</type>
+		<position>0, 0, 500</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0xff0000</color>
+		<shine>50, 0.7</shine>
+	</object>
+</scene>

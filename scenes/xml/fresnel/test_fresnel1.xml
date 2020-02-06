@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -5</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects><antialiasing>off</antialiasing></effects>
+	<window>
+		<title>fresnel</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>-30, 100, 50</position>
+		<intensity>6000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 300</position>
+		<direction>0, 0, -1</direction>
+		<dimension>50</dimension>
+		<color>0xffffff</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type> TOP
+		<position>0, 150, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>50</dimension>
+		<color>0x33aa33</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type> DOWN
+		<position>0, -20, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<color>0x00ff00</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>0, 30, 190</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<reflection>0.00001</reflection>
+		<refraction>1.8</refraction>
+		<transparence>0.7</transparence>
+		<color>0xaaaaaa</color>
+		<shine>50, 0.5</shine>
+	</object>
+</scene>

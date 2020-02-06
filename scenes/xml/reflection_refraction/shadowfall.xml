@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 5, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<glare>off</glare>
+	    <fov>50.0</fov>
+	</camera>
+	<effects><antialiasing>off</antialiasing></effects>
+	<window>
+		<title>shadow_attenuation</title>
+		<dimension>1066, 600</dimension>
+		<ambient>0.15</ambient>
+	</window>
+	<light>
+		<position>0, 50, 20</position>
+		<intensity>3000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 100</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0x000000</color>
+		<shine>1.23, 0.21212</shine>
+		<perturbation>1, 3</perturbation>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-28, 10, 90</position>
+		<direction>0, 1, 0</direction>
+		<dimension>8</dimension>
+		<color>0x0000ff</color>
+		<shine>200, 0.2</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-9, 10, 90</position>
+		<direction>0, 1, 0</direction>
+		<dimension>8</dimension>
+		<transparence>0.4</transparence>
+		<refraction>1.3</refraction>
+		<color>0x0000ff</color>
+		<shine>200, 0.2</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>7, 5, 91</position>
+		<direction>0, 1, 0</direction>
+		<dimension>8</dimension>
+		<transparence>0.75</transparence>
+		<refraction>1.3</refraction>
+		<color>0x0000ff</color>
+		<shine>200, 0.2</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>11, 15, 81</position>
+		<direction>0, 1, 0</direction>
+		<dimension>8</dimension>
+		<transparence>0.75</transparence>
+		<refraction>1.3</refraction>
+		<color>0x0000ff</color>
+		<shine>200, 0.2</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>28, 10, 90</position>
+		<direction>0, 1, 0</direction>
+		<dimension>8</dimension>
+		<transparence>0.9</transparence>
+		<refraction>1.3</refraction>
+		<color>0x0000ff</color>
+		<shine>200, 0.2</shine>
+	</object>
+</scene>

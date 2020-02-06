@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<glare>off</glare>
+	    <fov>90.0</fov>
+	</camera><effects><antialiasing>4x</antialiasing></effects>
+	<window>
+		<title>pool</title>
+		<dimension>800, 600</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<direction>0, -1, 1</direction>
+		<intensity>20000</intensity>
+		<color>0xffffff</color>
+		<type>directional</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -20, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0x037d50</color>
+		<shine>0, 0</shine>
+		<texture_file>textures/pool_table/pooltable.xpm</texture_file>
+		<texture_mode>0.7, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>20, -10, 30</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0, 180, 0</rotation>
+		<color>0xffff00</color>
+		<shine>100, 0.5</shine>
+		<reflection>0.1</reflection>
+		<texture_file>textures/pool_table/Ball7.xpm</texture_file>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>0, -10, 90</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0, 180, 0</rotation>
+		<color>0xffffff</color>
+		<shine>100, 0.5</shine>
+		<reflection>0.05</reflection>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-40, -10, 60</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>45, 180, 0</rotation>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+		<reflection>0.1</reflection>
+		<texture_file>textures/pool_table/Ball2.xpm</texture_file>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-20, -10, 50</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0, 180, 0</rotation>
+		<color>0xffff00</color>
+		<shine>100, 0.5</shine>
+		<reflection>0.1</reflection>
+		<texture_file>textures/pool_table/Ball8.xpm</texture_file>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>20, -10, 80</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>-45, 180, 0</rotation>
+		<color>0xffff00</color>
+		<shine>100, 0.5</shine>
+		<reflection>0.1</reflection>
+		<texture_file>textures/pool_table/Ball13.xpm</texture_file>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-10, -10, 130</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>45, 180, 0</rotation>
+		<color>0xffff00</color>
+		<shine>100, 0.5</shine>
+		<reflection>0.1</reflection>
+		<texture_file>textures/pool_table/Ball11.xpm</texture_file>
+		<texture_mode>1, 0.0, 0.0</texture_mode>
+	</object>
+</scene>

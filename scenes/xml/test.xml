@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+    <camera>
+        <position>0, 0, -500</position>        
+        <direction>0, 0, 1</direction>
+        <rotation>0, 0, 0</rotation>
+        <fov>50.0</fov>
+    </camera>
+	<effects>
+		<anaglyph>
+			<offset>0</offset>
+			<focus>0</focus>
+		</anaglyph>
+	<antialiasing>2x</antialiasing>
+	<celshading>on</celshading>
+	<colormode>classic</colormode>
+	</effects>
+    <window>
+        <title>debugger</title>
+        <dimension>1280, 720</dimension>
+        <ambient>0.5</ambient>
+    </window>
+	<light>
+		<intensity>10000</intensity>
+		<color>0xffffff</color>
+		<type>directional</type>
+		<direction>0, 0, 1</direction>
+	</light>
+    <light>
+        <position>0, 100, 30</position>
+        <intensity>100000</intensity>
+        <color>0xffffff</color>
+        <type>point</type>
+    </light>
+    <object>
+        <type>plane</type>
+        <position>0, -200, 0</position>
+        <direction>0, 1, 0</direction>
+        <dimension>10</dimension>
+        <color>0xffff00</color>
+        <shine>1.23, 0.21212</shine>
+		<texture_file>textures/test.xpm</texture_file>
+		<texture_mode>100, 0, 999999</texture_mode>
+    </object>
+    <object>
+        <type>cube</type>
+        <position>-40, -50, 400</position>
+        <direction>0, 1, 0</direction>
+		<rotation>-30, 45, 0</rotation>
+        <dimension>50</dimension>
+        <color>0xff00ff</color>
+        <shine>200, 0.2</shine>
+    </object>
+    <object>
+        <type>torus</type>
+        <position>-200, 100, 400</position>
+        <direction>0, 1, 0</direction>
+        <rotation>90, 0, 90</rotation>
+        <dimension>50</dimension>
+		<reflection>0.5</reflection>
+        <color>0x222222</color>
+        <shine>200, 0.2</shine>
+    </object>
+    <object>
+        <type>ellipsoid</type>
+        <position>-100, 100, 400</position>
+        <direction>0, 1, 0</direction>
+        <dimension>80</dimension>
+		<refraction>1.1</refraction>
+		<transparence>0.6</transparence>
+        <color>0x0000ff</color>
+        <shine>200, 0.2</shine>
+    </object>
+    <object>
+        <type>cylinder</type>
+        <position>140, 100, 400</position>
+        <direction>0, 1, 0</direction>
+        <dimension>20</dimension>
+		<bump_map>bump_textures/liquid.xpm, -10000</bump_map>
+		<negatif>0</negatif>
+        <color>0x0000ff</color>
+        <shine>200, 0.2</shine>
+    </object>
+</scene>

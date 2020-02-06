@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<fov>30.0</fov>
+	</camera>
+	<window>
+		<title>void testing</title>
+		<dimension>500, 500</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<position>0, 25, 100</position>
+		<intensity>5000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -20, 0</position>
+		<direction>0, 1, 0</direction>
+		<rotation>0,0,0</rotation>
+		<dimension>60</dimension>
+		<color>0x0000ff</color>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, -40, 200</position>
+		<direction>0, 1, 0</direction>
+		<rotation>0,0,0</rotation>
+		<dimension>60</dimension>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>0, 5, 100</position>
+		<direction>0, 0, 1</direction>
+		<negatif>1</negatif>
+		<rotation>22,45,0</rotation>
+		<dimension>4.5</dimension>
+		<color>0xff0000</color>
+	</object>
+	<object>
+		<type>cube</type>
+		<position>0, 5, 100</position>
+		<direction>0, 0, 1</direction>
+		<negatif>0</negatif>
+		<rotation>22,22,0</rotation>
+		<dimension>4</dimension>
+		<color>0xffffff</color>
+	</object>
+</scene>

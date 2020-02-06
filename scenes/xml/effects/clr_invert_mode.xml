@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -500</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<glare>off</glare>
+	    <fov>50.0</fov>
+	</camera>
+	<effects>
+	<colormode>negative</colormode>
+	</effects>
+	<window>
+		<title>negative_mode</title>
+		<dimension>1066, 600</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>-60, 20, -350</position>
+		<intensity>10000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -200, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>290, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>-290, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 200, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 1000</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0x44ffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>cube</type>
+		<position>0, 0, -200</position>
+		<direction>0, 0, 1</direction>
+		<rotation>90, 40, 45</rotation>
+		<dimension>30</dimension>
+		<color>0xff00ff</color>
+		<shine>200, 0.2</shine>
+	</object>
+	<object>
+		<type>cylinder</type>
+		<position>30, 0, 0</position>
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<dimension>10</dimension>
+		<color>0xffffff</color>
+		<shine>200, 0.2</shine>
+	</object>
+</scene>

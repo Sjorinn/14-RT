@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -5</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects><antialiasing>off</antialiasing></effects>
+	<window>
+		<title>reflection_test</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<position>0, 80, 50</position>
+		<intensity>4000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>sphere</type>
+		<position>-30, 10, 120</position>
+		<direction>0, 1, 0</direction>
+		<dimension>20</dimension>
+		<color>0xff0000</color>
+		<reflection>0.2</reflection>
+		<shine>50, 1</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>30, 10, 120</position>
+		<direction>0, 1, 0</direction>
+		<dimension>20</dimension>
+		<color>0x0000ff</color>
+		<reflection>0.8</reflection>
+		<shine>50, 1</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, -20, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0x000000</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

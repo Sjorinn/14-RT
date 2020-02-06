@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>50, 0, -10</position>
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<glare>off</glare>
+	    <fov>90.0</fov>
+	</camera><effects><antialiasing>4x</antialiasing></effects>
+	<window>
+		<title>sand</title>
+		<dimension>1920, 1080</dimension>
+		<ambient>0.3</ambient>
+	</window>
+	<light>
+		<direction>0, -1, 1</direction>
+		<intensity>10000</intensity>
+		<color>0xffffff</color>
+		<type>directional</type>
+	</light>
+	<light>
+		<position>10, 120, 20</position>
+		<intensity>6000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 100</position>
+		<direction>0, 0, -1</direction>
+		<dimension>1</dimension>
+		<rotation>0, 0, 0</rotation>
+		<color>0x4B3CB8</color>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>30, -20, 1</position>
+		<direction>0, 1, 0</direction>
+		<dimension>1</dimension>
+		<rotation>0, 0, 0</rotation>
+		<color>0xffffff</color>
+		<nrm_sin_pow>0.06, 0, 0</nrm_sin_pow>
+		<nrm_sin_frq>0.9, 0, 0</nrm_sin_frq>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>60, -10, 35</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0, 0, 0</rotation>
+		<color>0xffffff</color>
+		<reflection>0.9</reflection>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>52, -10, 55</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0, 0, 0</rotation>
+		<color>0xffffff</color>
+		<reflection>0.9</reflection>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>60, 4, 45.8</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0, 0, 0</rotation>
+		<color>0xffffff</color>
+		<reflection>0.9</reflection>
+	</object>
+
+
+</scene>

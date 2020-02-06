@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<fov>30.0</fov>
+	</camera>
+	<window>
+		<title>A little door</title>
+		<dimension>500, 500</dimension>
+		<ambient>0.2</ambient>
+	</window>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>on</celshading>
+	</effects>
+	<light>
+		<position>45, 25, 230</position>
+		<intensity>5000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<light>
+		<position>50, 25, 230</position>
+		<intensity>5000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type>
+		<position>0, -20, 0</position>
+		<direction>0, 1, 0</direction>
+		<rotation>0,0,0</rotation>
+		<dimension>60</dimension>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, -40, 350</position>
+		<direction>0, 0, -1</direction>
+		<rotation>0,0,0</rotation>
+		<dimension>60</dimension>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, -40, 200</position>
+		<direction>0, 0, -1</direction>
+		<rotation>0,0,0</rotation>
+		<dimension>60</dimension>
+		<color>0xfaf0ff</color>
+		<transparence>0.15</transparence>
+		<refraction>1.4</refraction>
+	</object>
+	<group>
+		<position>-20, 0, 200</position>
+		<rotation>0, 0, 0</rotation>
+		<translation>0, 0, 0</translation>
+		<components>
+			<object>
+				<type>cube</type>
+				<position>50, 25, -15</position>
+				<direction>0, 1, 0</direction>
+				<dimension>15</dimension>
+				<negatif>1</negatif>
+				<rotation>0,0,0</rotation>
+				<color>0xaf87de</color>
+			</object>
+			<object>
+				<type>cube</type>
+				<position>0, 20, 0</position>
+				<direction>0, 1, 0</direction>
+				<dimension>20</dimension>
+				<negatif>1</negatif>
+				<rotation>0,0,0</rotation>
+				<color>0xaf87de</color>
+			</object>
+			<object>
+				<type>cube</type>
+				<position>0, 0.05, 0</position>
+				<direction>0, 1, 0</direction>
+				<dimension>20</dimension>
+				<negatif>1</negatif>
+				<rotation>-0.25,0,0</rotation>
+				<color>0xaf87de</color>
+			</object>
+		</components>
+	</group>
+	<group>
+		<position>29, -10, 205</position>
+		<rotation>0, 0, 0</rotation>
+		<translation>0, 0, 0</translation>
+		<components>
+			<object>
+				<type>cylinder</type>
+				<position>-11, 0, 0</position>
+				<direction>0, 1, 0</direction>
+				<dimension>1</dimension>
+				<negatif>0</negatif>
+				<rotation>0,0,0</rotation>
+				<color>0xaf87de</color>
+			</object>
+			<object>
+				<type>cylinder</type>
+				<position>-6, 0, 0</position>
+				<direction>0, 1, 0</direction>
+				<dimension>1</dimension>
+				<negatif>0</negatif>
+				<rotation>0,0,0</rotation>
+				<color>0xaf87de</color>
+			</object>
+			<object>
+				<type>cylinder</type>
+				<position>-1, 0, 0</position>
+				<direction>0, 1, 0</direction>
+				<dimension>1</dimension>
+				<negatif>0</negatif>
+				<rotation>0,0,0</rotation>
+				<color>0xaf87de</color>
+			</object>
+			<object>
+				<type>cylinder</type>
+				<position>4, 0, 0</position>
+				<direction>0, 1, 0</direction>
+				<dimension>1</dimension>
+				<negatif>0</negatif>
+				<rotation>0,0,0</rotation>
+				<color>0xaf87de</color>
+			</object>
+			<object>
+				<type>cylinder</type>
+				<position>9, 0, 0</position>
+				<direction>0, 1, 0</direction>
+				<dimension>1</dimension>
+				<negatif>0</negatif>
+				<rotation>0,0,0</rotation>
+				<color>0xaf87de</color>
+			</object>
+			<object>
+				<type>cylinder</type>
+				<position>14, 0, 0</position>
+				<direction>0, 1, 0</direction>
+				<dimension>1</dimension>
+				<negatif>0</negatif>
+				<rotation>0,0,0</rotation>
+				<color>0xaf87de</color>
+			</object>
+			<group>
+				<position>0, -5, 0</position>
+				<rotation>0, 0, 0</rotation>
+				<translation>0, 0, 0</translation>
+				<components>
+					<object>
+						<type>cylinder</type>
+						<position>5, 0, 0</position>
+						<direction>0, 0, 1</direction>
+						<dimension>1</dimension>
+						<negatif>0</negatif>
+						<rotation>0,0,0</rotation>
+						<color>0xaf87de</color>
+					</object>
+					<object>
+						<type>cylinder</type>
+						<position>0, 0, 0</position>
+						<direction>0, 0, 1</direction>
+						<dimension>1</dimension>
+						<negatif>0</negatif>
+						<rotation>0,0,0</rotation>
+						<color>0xaf87de</color>
+					</object>
+				</components>
+			</group>
+		</components>
+	</group>
+	<object>
+		<type>cube</type>
+		<position>-40, -10, 290</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<rotation>0,0,0</rotation>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>cube</type>
+		<position>-42, 8, 295</position>
+		<direction>0, 1, 0</direction>
+		<dimension>8</dimension>
+		<rotation>0,34,0</rotation>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>cube</type>
+		<position>10, -5, 240</position>
+		<direction>0, 1, 0</direction>
+		<dimension>4</dimension>
+		<rotation>0,0,0</rotation>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>cube</type>
+		<position>10, -5, 260</position>
+		<direction>0, 1, 0</direction>
+		<dimension>4</dimension>
+		<rotation>0,0,0</rotation>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>10, -5, 250</position>
+		<direction>0, 1, 0</direction>
+		<dimension>8</dimension>
+		<rotation>0,0,0</rotation>
+		<color>0xffffff</color>
+	</object>
+</scene>

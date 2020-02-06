@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 150</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>70.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>4x</antialiasing>
+	</effects>
+	<window>
+		<title>hyperboloid_one_sheet</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.1</ambient>
+	</window>
+	<light>
+		<position>-300, 100, 100</position>
+		<intensity>250000</intensity>
+		<color>0xfa7801</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>hyperboloid1</type>
+		<position>0, 0, 600</position>
+		<direction>0, 1, 0</direction>
+		<dimension>60</dimension>
+		<color>0xfa7801</color>
+		<shine>30, 0.8</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 110, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0x000000</color>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, -110, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>10</dimension>
+		<color>0x000000</color>
+	</object>
+</scene>

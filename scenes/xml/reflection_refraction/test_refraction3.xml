@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>60.0</fov>
+	</camera>
+	<window>
+		<title>refraction_test</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.5</ambient>
+	</window>
+	<light>
+		<position>-30, 0, 350</position>
+		<intensity>5000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>plane</type> FRONT PLANE
+		<position>0, 0, 500</position>
+		<direction>0, 0, -1</direction>
+		<dimension>20</dimension>
+		<color>0xcccccc</color>
+		<texture_file>textures/wireframe.xpm</texture_file>
+		<texture_mode>1, 0, 0</texture_mode>
+	</object>
+	<object>
+		<type>plane</type> BACK PLANE
+		<position>0, 0, -500</position>
+		<direction>0, 0, 1</direction>
+		<dimension>20</dimension>
+		<color>0xcccccc</color>
+	</object>
+	<object>
+		<type>plane</type> LEFT PLANE
+		<position>-100, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>20</dimension>
+		<color>0x888888</color>
+	</object>
+	<object>
+		<type>plane</type> RIGHT PLANE
+		<position>20, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>20</dimension>
+		<reflection>0.8</reflection>
+		<color>0x888888</color>
+	</object>
+	<object>
+		<type>plane</type> TOP PLANE
+		<position>0, 100, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>20</dimension>
+		<color>0x888888</color>
+	</object>
+	<object>
+		<type>plane</type> BOTTOM PLANE
+		<position>0, -100, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>20</dimension>
+		<color>0x888888</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-15, 0, 400</position>
+		<direction>0, 1, 0</direction>
+		<dimension>50</dimension>
+		<refraction>1.1</refraction>
+		<transparence>0.95</transparence>
+		<shine>100, 1</shine>
+		<color>0xff0000</color>
+	</object>
+</scene>
